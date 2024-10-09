@@ -1,18 +1,37 @@
 package edu.flavio.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import edu.flavio.example.sigletonlazy.SingletonEager;
+import edu.flavio.example.sigletonlazy.SingletonLazy;
+import edu.flavio.example.sigletonlazy.SingletonLazyHolder;
+
+
 public class
 Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        /*Apenas para mostrar que Singleton não permite ser instanciado
+        *com "new", pois seu construtor é privado
+         */
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+       // SingletonLazy lazy= new SingletonLazy();
+
+        // Aqui acessamos a instância, dentro da classe privada, através do método que é público
+        SingletonLazy lazy=SingletonLazy.getInstancia();
+        System.out.println(lazy);
+        lazy=SingletonLazy.getInstancia();
+        System.out.println(lazy);
+
+        // Aqui acessamos a instância, dentro da classe privada, através do método que é público
+        SingletonEager eager=SingletonEager.getInstancia();
+        System.out.println(eager);
+        eager=SingletonEager.getInstancia();
+        System.out.println(eager);
+
+        // Aqui acessamos a instância encapsualda na classe privada, através do método que é público estático da classe "SingletonLazyholder"
+        SingletonLazyHolder holder=SingletonLazyHolder.getInstancia();
+        System.out.println(holder);
+        holder=SingletonLazyHolder.getInstancia();
+        System.out.println(holder);
     }
-}
+
+
+    }

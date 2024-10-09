@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1efdaa64-738b-4d03-83ad-2a07a14ef9da" name="Changes" comment="Inicial- adição da classe singletonLazy" />
+    <list default="true" id="1efdaa64-738b-4d03-83ad-2a07a14ef9da" name="Changes" comment="classe SingletonEager implementada&#10;Correção no texto de SingletonLazy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/flavio/example/sigletonlazy/SingletonLazyHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/flavio/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/flavio/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/flavio/example/sigletonlazy/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/flavio/example/sigletonlazy/SingletonEager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,6 +50,11 @@
     "onboarding.tips.debug.path": "C:/Users/flavi/OneDrive/Documentos/PROGRAMAÇÃO/2024_DIO_SANTANDER_BOOTCAMP/Curso Padrões de projetos/edu.flavio.dio.padrao.singleton/src/main/java/edu/flavio/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.flavio.example.sigletonlazy" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +72,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728499938360</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="classe Singletonlazy implementada">
+      <option name="closed" value="true" />
+      <created>1728504666746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728504666746</updated>
+    </task>
+    <task id="LOCAL-00003" summary="classe Singletonlazy implementada">
+      <option name="closed" value="true" />
+      <created>1728504688469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728504688469</updated>
+    </task>
+    <task id="LOCAL-00004" summary="classe Singletonlazy implementada">
+      <option name="closed" value="true" />
+      <created>1728504829532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728504829532</updated>
+    </task>
+    <task id="LOCAL-00005" summary="classe SingletonEager implementada&#10;Correção no texto de SingletonLazy">
+      <option name="closed" value="true" />
+      <created>1728505435870</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728505435870</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,7 +118,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -97,14 +144,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicial- adição da classe singletonLazy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicial- adição da classe singletonLazy" />
+    <MESSAGE value="classe Singletonlazy implementada" />
+    <MESSAGE value="classe SingletonEager implementada&#10;Correção no texto de SingletonLazy" />
+    <option name="LAST_COMMIT_MESSAGE" value="classe SingletonEager implementada&#10;Correção no texto de SingletonLazy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/flavio/example/Main.java</url>
-          <line>14</line>
+          <line>27</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
