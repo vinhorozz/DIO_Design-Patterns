@@ -5,8 +5,7 @@ import edu.flavio.example.sigletonlazy.SingletonLazy;
 import edu.flavio.example.sigletonlazy.SingletonLazyHolder;
 
 
-public class
-Main {
+public class MainSingleton {
     public static void main(String[] args) {
         /*Apenas para mostrar que Singleton não permite ser instanciado
         *com "new", pois seu construtor é privado
