@@ -16,7 +16,6 @@ public class MainStrategy {
         robo.setComportamento(normal);
 
         robo.mover();
-        robo.mover();
         robo.setComportamento(agressivo);
         robo.mover();
         robo.mover();
